@@ -1,0 +1,33 @@
+
+  .parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+	background-color: magenta;
+  }
+  
+  header {
+    padding: 2rem;
+    grid-column: 1 / 4;
+	background-color: orange;
+  }
+
+  .left-side {
+    grid-column: 1 / 2;
+	background-color: red;
+  }
+
+  main {
+    grid-column: 2 / 3;
+	background-color: black;
+
+  }
+
+  .right-side {
+    grid-column: 3 / 4;
+	background-color: brown;
+  }
+
+  footer {
+    grid-column: 1 / 4;
+	background-color: green;
+  }

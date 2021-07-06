@@ -1,0 +1,40 @@
+.colorPallet {
+  background: #5945F7;
+  background: #3C54D6;
+  background: #4F92ED;
+  background: #3CA5D6;
+  background: #45EDF7;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: linear-gradient(#4f92ed, #3C53D6);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-quiz {
+  margin: 50px 100px 100px 50px;
+}
+
+.button-quiz {
+  display: block;
+	border-radius:5px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: inherit;
+	font-size: 1em;
+  margin: 10px auto;
+	padding:15px 40px;
+	text-decoration:none;
+  width: 15em;
+  /* border: none; */
+}
